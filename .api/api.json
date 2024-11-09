@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "apis": [
+    {
+      "identifier": "labs-v2",
+      "source": "@labs-v2/v0.21.0#15439a1cm2dmhmdd",
+      "integrity": "sha512-B5ylnWem5rAMU1aGzU8celVLL8f1j7QsgfuackOZ65EQ6Al2Px76l9tGAkKa09FJKwbJjMxYcMnLkn8EfM+Bvw==",
+      "installerVersion": "6.1.2"
+    }
+  ]
+}

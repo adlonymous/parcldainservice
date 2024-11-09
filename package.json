@@ -1,0 +1,24 @@
+{
+  "name": "parcldainservice",
+  "version": "1.0.0",
+  "description": "A Dain Protocol project",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "dain dev",
+    "build": "dain build",
+    "deploy": "dain deploy"
+  },
+  "dependencies": {
+    "@api/labs-v2": "file:.api/apis/labs-v2",
+    "@dainprotocol/service-sdk": "^1.0.27",
+    "hono": "^4.6.3",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^22.5.4",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
